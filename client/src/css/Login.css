@@ -1,0 +1,56 @@
+.loginpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c3c9cb;
+  height: 100vh;
+  width: 100%;
+  background-image: url("../assets/background.jpg.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.loginBox {
+  box-shadow: 1px 1px 6px #272525;
+  border-radius: 10px;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.3);
+}
+.ant-input-outlined {
+  background: transparent;
+}
+
+.logintext {
+  color: white;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px; 
+  text-align: center;
+  padding-bottom: 15px; 
+}
+/* .heading {
+  background-color: #b49f71;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+} */
+ /* .ant-btn {
+  background-color: #001529;
+} 
+ :where(.css-dev-only-do-not-override-1x0dypw).ant-menu-dark.ant-menu-horizontal
+  > .ant-menu-item-selected:hover {
+  background-color: transparent;
+} 
+:where(.css-dev-only-do-not-override-1x0dypw).ant-menu-dark
+  .ant-menu-item-selected {
+  background-color: transparent;
+}
+:where(.css-dev-only-do-not-override-1x0dypw).ant-form-item
+  .ant-form-item-label
+  > label {
+  color: white;
+  font-size: 20px;
+}
+:where(.css-dev-only-do-not-override-1x0dypw).ant-checkbox-wrapper {
+  color: white;
+} */

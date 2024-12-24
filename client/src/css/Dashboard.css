@@ -1,0 +1,134 @@
+.Task-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* margin-left: 100px; */
+  margin-bottom: 500px;
+  /* width: 1300px; */
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+}
+.table {
+  /* width: 1200px; */
+  color: black;
+}
+.TaskList {
+  font-size: 35px;
+  font-weight: 600;
+  padding: 10px;
+}
+.list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  margin-right: 20%;
+  /* background-color: #61e584; */
+}
+.filter,
+.create {
+  color: #f5f3f3;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  outline: none;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 0.5px solid rgb(150, 140, 140);
+}
+/* .create {
+  color: #717070;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  border-style: none;
+} */
+
+/* .createoutline {
+  color: #3f3d3d;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(150, 140, 140);
+  /* background-color: #f2eded; */
+
+.search {
+  color: #0c0c0c;
+  font-size: 18px;
+  padding-right: 10px;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.searchInput {
+  color: #0c0c0c;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 0.5px solid rgb(150, 140, 140);
+}
+button {
+  /* background-color: #001529; */
+  color: #fff;
+  margin-right: 10px;
+  border-radius: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.uploadbtn {
+  background-color: #809fbb;
+  border: none;
+}
+.updatebtn {
+  background-color: #809fbb;
+  border: none;
+}
+.deletebtn {
+  border: none;
+  color: black;
+}
+:where(.css-dev-only-do-not-override-1x0dypw).ant-badge .ant-badge-count {
+  background-color: #888;
+}
+
+.daysBox {
+  width: 50px;
+  font-size: 12px;
+  height: 35px;
+  background-color: #cdcaca;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: CENTER;
+  align-items: center;
+}
+.textBox {
+  width: 180px;
+  font-size: 15px;
+  height: 50px;
+  background-color: #61e584;
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  justify-content: CENTER;
+  align-items: center;
+  padding: 5px;
+}
+
+:where(.css-dev-only-do-not-override-1x0dypw).ant-table-wrapper .ant-table-pagination-right {
+justify-content: center;
+}

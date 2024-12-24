@@ -1,0 +1,29 @@
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  /* height: 100%; */
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+}
+
+.sidecontent {
+  display: flex;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.pageContent {
+  display: flex;
+  flex: 1;
+  justify-content: start;
+  align-items: start;
+  background-color: rgb(179, 190, 195);
+}
+
+.sidemenu {
+  width: 270px;
+  color: white;
+}

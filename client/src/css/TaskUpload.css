@@ -1,0 +1,89 @@
+.assignment-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 600px;
+  width: 100%;
+  font-size: 15px;
+  font-family: "Oswald", sans-serif;
+  padding-top: 100px;
+}
+.assignmt {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  color: black;
+}
+.description {
+  font-size: 30px;
+  margin: 10px 0 30px 0;
+  background-color: rgb(241, 243, 245);
+  padding: 20px 40px;
+  border-radius: 10px;
+  font-weight: 200;
+  letter-spacing: 1.3px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  width: 1000px;
+}
+.ant-upload-wrapper {
+  display: flex;
+}
+.ant-upload {
+  background-color: rgb(241, 243, 245);
+  padding: 10px;
+}
+.ant-upload-list-item-container {
+  width: 200px;
+  margin-left: 30px;
+  background-color: rgb(241, 243, 245);
+  border-radius: 5px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  /* padding: 5px; */
+  margin-bottom: 10px;
+}
+.ant-upload-wrapper .ant-upload-drag p.ant-upload-drag-icon .anticon {
+  color: #1677ff;
+  font-size: 80px;
+}
+.ant-upload-list-item-actions {
+  float: right;
+}
+.ant-upload-list-item {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  width: 250px;
+}
+.ant-upload-list-item-name {
+  font-size: 15px;
+  color: #1677ff;
+}
+.ant-upload-wrapper
+  .ant-upload-list
+  .ant-upload-list-item-error
+  .ant-upload-icon
+  .anticon {
+  color: #1677ff;
+}
+.ant-upload-wrapper
+  .ant-upload-list
+  .ant-upload-list-item-error
+  .ant-upload-list-item-actions
+  .anticon:hover {
+  color: #888;
+}
+.button {
+  margin-top: 30px;
+}
+.submitBtn {
+  font-size: 18px;
+  padding: 20px 40px 20px 40px;
+}
+.cancelBtn {
+  font-size: 18px;
+  padding: 20px 40px 20px 40px;
+  background-color: rgb(241, 243, 245);
+}

@@ -1,0 +1,46 @@
+.signinpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #c3c9cb;
+  height: 100vh;
+  width: 100%;
+}
+.signinBox {
+  box-shadow: 1px 1px 6px #272525;
+  border-radius: 10px;
+  max-width: 95%;
+  min-width: 40%;
+}
+.ant-input-outlined {
+  background: transparent;
+}
+
+h2 {
+  color: #090707;
+  margin-bottom: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.logintext {
+  color: #888;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 5px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.ant-btn {
+  background-color: #001529;
+}
+.ant-input{
+  border-color: #272525;
+}
+:where(.css-dev-only-do-not-override-1x0dypw).ant-input-outlined{
+  border-color: #272525;
+}
